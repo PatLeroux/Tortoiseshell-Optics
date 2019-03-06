@@ -1,0 +1,142 @@
+html {
+  background-color: white;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height:  1.4;
+}
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.topbar {
+  background-color: cadetblue;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.2;
+}
+
+.container .topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+
+}
+.logo img {
+  height: 1.5rem;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  }
+
+li {
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.message {
+  display: inline-block;
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  margin-top: 8rem;
+  margin-right: -2rem;
+  background-color: white;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: .67em 0;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 4rem;
+  width: 5rem;
+  height: 8rem;
+  font-family: Helvetica;
+  font-size: 1.2rem;
+}
+
+.service img {
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+.service img.paper-icon {
+  width: 4.5rem
+}
+.service img.ruler-icon {
+  padding-bottom: 2.5rem;
+}
+.service img.truck-icon {
+  padding-bottom: 2.1rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+  font-family: Helvetica;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: .5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  font-family:  Helvetica;
+  max-width: 10rem;
+}
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+}
+
+footer img {
+  height: 1.5rem;
+  margin: 1rem 1rem 1rem 2rem;
+}
